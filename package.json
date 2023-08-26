@@ -1,0 +1,32 @@
+{
+  "name": "modulo-28-testes-de-performance",
+  "version": "1.0.0",
+  "description": "Projeto testes performance Módulo 28",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webpack",
+    "test": "k6 run dist/user.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Tozatti/Modulo-28-Testes-de-Performance.git"
+  },
+  "author": "Rodrigo Tozatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-Tozatti/Modulo-28-Testes-de-Performance/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-Tozatti/Modulo-28-Testes-de-Performance#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@types/k6": "^0.46.2",
+    "babel-loader": "^9.1.3",
+    "core-js": "^3.32.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
